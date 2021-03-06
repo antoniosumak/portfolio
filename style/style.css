@@ -1,0 +1,404 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+#particles-js {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background-color: #262626;
+}
+
+.kartica {
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  position: absolute;
+  width: 400px;
+  height: 550px;
+  background-color: #ffffff;
+  border-radius: 20px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.3) 0px 7px 29px 0px;
+          box-shadow: rgba(0, 0, 0, 0.3) 0px 7px 29px 0px;
+}
+
+.kartica .slika {
+  margin-top: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.kartica .slika .selfie {
+  padding: 5px;
+  width: 125px;
+  height: 125px;
+  border-radius: 50%;
+  border: 5px #8a2be2 solid;
+}
+
+.kartica .mojeime {
+  margin-top: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.kartica .mojeime .predtekst {
+  font-weight: 600;
+  font-size: 1.4rem;
+}
+
+.kartica .mojeime .imeprezime {
+  font-size: 1rem;
+  font-weight: 400;
+  color: #333;
+}
+
+.kartica .mojeime .imeprezime span {
+  color: #8a2be2;
+  font-weight: 600;
+}
+
+.kartica .kratakopis {
+  margin-top: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.kartica .kratakopis .opis {
+  padding: 0px 50px;
+  text-align: justify;
+  line-height: 1.7rem;
+}
+
+.kartica .sociallinkovi {
+  margin-top: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.kartica .sociallinkovi i {
+  font-size: 1.2rem;
+  color: #fff;
+}
+
+.kartica .sociallinkovi .kvadratic {
+  border-radius: 5px;
+  width: 25px;
+  height: 25px;
+  background-color: #262626;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0px 10px;
+}
+
+.kartica .sociallinkovi .kvadratic:hover {
+  cursor: pointer;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  background-color: #8a2be2;
+}
+
+.swiper-container {
+  width: 100%;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
+.swiper-slide:hover {
+  cursor: all-scroll;
+}
+
+.naslovSkills {
+  text-align: center;
+  margin-top: 35px;
+}
+
+.skills {
+  padding: 0px 30px;
+  margin-top: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.skills .coldev {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-flex: 50%;
+      -ms-flex: 50%;
+          flex: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.skills .coldev .naslovdev {
+  font-size: 1.2rem;
+  color: #8a2be2;
+}
+
+.skills .coldev .skill {
+  margin: 10px 0px;
+  border-bottom: 2px solid #262626;
+}
+
+.skills .coldesig {
+  -webkit-box-flex: 50%;
+      -ms-flex: 50%;
+          flex: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.skills .coldesig .naslovdesig {
+  font-size: 1.2rem;
+  color: #8a2be2;
+}
+
+.skills .coldesig .skill {
+  margin: 10px 0px;
+  border-bottom: 2px solid #8a2be2;
+}
+
+.pulsacija {
+  position: absolute;
+  color: white;
+  font-size: 20px;
+  bottom: -30px;
+  left: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-animation: pulsacija 3s infinite;
+          animation: pulsacija 3s infinite;
+  margin-left: -20px;
+}
+
+.pulsacija p {
+  font-weight: 600;
+}
+
+.pulsacija i {
+  padding-top: 3px;
+  padding-right: 10px;
+  color: #8a2be2;
+}
+
+@-webkit-keyframes pulsacija {
+  0% {
+    margin-left: -20px;
+  }
+  50% {
+    margin-left: 20px;
+  }
+  100% {
+    margin-left: -20px;
+  }
+}
+
+@keyframes pulsacija {
+  0% {
+    margin-left: -20px;
+  }
+  50% {
+    margin-left: 20px;
+  }
+  100% {
+    margin-left: -20px;
+  }
+}
+
+.myfreetime {
+  margin-top: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.myfreetime .colpassion {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 50%;
+      -ms-flex: 50%;
+          flex: 50%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.myfreetime .colpassion .naslovpass {
+  text-align: center;
+}
+
+.myfreetime .colpassion .redpassion {
+  margin-left: 50px;
+  margin-top: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.myfreetime .colpassion .redpassion i {
+  padding-right: 20px;
+  font-weight: 300;
+  font-size: 1.1rem;
+  color: #8a2be2;
+}
+
+.myfreetime .collanguage {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 50%;
+      -ms-flex: 50%;
+          flex: 50%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.myfreetime .collanguage .naslovlang {
+  text-align: center;
+}
+
+.myfreetime .collanguage .redlang {
+  margin-top: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.myfreetime .collanguage .redlang i {
+  padding-right: 20px;
+  font-weight: 300;
+  font-size: 1.1rem;
+  color: #8a2be2;
+}
+
+.myfreetime .collanguage .redlang p {
+  color: #8a2be2;
+  font-weight: 600;
+}
+
+.myfreetime .collanguage .redlang .nevidljiv {
+  visibility: hidden !important;
+}
+
+#myProgress {
+  width: 80%;
+  background-color: grey;
+  border-radius: 999px;
+}
+
+#myBar {
+  width: 100%;
+  height: 15px;
+  background-color: #8a2be2;
+  border-radius: 999px;
+}
+/*# sourceMappingURL=style.css.map */
