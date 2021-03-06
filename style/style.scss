@@ -242,3 +242,13 @@
   background-color: #8a2be2;
   border-radius: 999px;
 }
+
+@media screen and (max-width: 768px) {
+  .kartica {
+    width: 350px;
+    height: 600px;
+    .opis {
+      padding: 0px 25px;
+    }
+  }
+}

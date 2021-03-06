@@ -401,4 +401,14 @@
   background-color: #8a2be2;
   border-radius: 999px;
 }
+
+@media screen and (max-width: 768px) {
+  .kartica {
+    width: 350px;
+    height: 600px;
+  }
+  .kartica .opis {
+    padding: 0px 25px;
+  }
+}
 /*# sourceMappingURL=style.css.map */
