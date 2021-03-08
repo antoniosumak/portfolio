@@ -398,6 +398,9 @@
   height: 100vh;
   background-color: #f7f4ff;
   place-items: center;
+  .text {
+    z-index: 10;
+  }
   .top {
     position: absolute;
     top: 0;
