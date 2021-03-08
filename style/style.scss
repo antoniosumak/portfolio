@@ -13,6 +13,8 @@
 }
 
 .kartica {
+  border-top: 5px #9349da solid;
+  border-bottom: 5px #9349da solid;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -32,7 +34,7 @@
       width: 125px;
       height: 125px;
       border-radius: 50%;
-      border: 5px #8a2be2 solid;
+      border: 3px #9c65cf solid;
     }
   }
   .mojeime {
@@ -230,25 +232,286 @@
     }
   }
 }
-#myProgress {
-  width: 80%;
-  background-color: grey;
-  border-radius: 999px;
-}
 
-#myBar {
+.mywork {
   width: 100%;
-  height: 15px;
-  background-color: #8a2be2;
-  border-radius: 999px;
-}
+  min-height: 100vh;
+  background-color: #f7f4ff;
+  .wrapper {
+    position: relative;
+    width: 70%;
+    margin: auto;
+    .text {
+      margin-top: 80px;
+      position: absolute;
+      left: 50%;
+      transform: translate(-50%);
+      .portfolio {
+        font-size: 32px;
+      }
+      .crta {
+        height: 16px;
+        width: 100%;
+        background-color: #9c65cf;
+        margin-top: -20px;
+      }
+    }
+  }
+  .red {
+    padding-top: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 
+    .col1work {
+      .primjerjs {
+        width: 500px;
+        height: 312px;
+        border-radius: 20px;
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 12px 24px;
+      }
+      margin-right: 30px;
+    }
+    .col2work {
+      .jsopis {
+        margin-top: 10px;
+        max-width: 35ch;
+        color: #97959c;
+        margin-bottom: 10px;
+      }
+      .cta {
+        margin-top: 10px;
+        text-decoration: none;
+        font-weight: 600;
+        padding: 5px 15px;
+        border: none;
+        outline: none;
+        background-color: #9c65cf;
+        color: white;
+        border-radius: 5px;
+      }
+      .cta:hover {
+        cursor: pointer;
+        background-color: white;
+        color: #9c65cf;
+        transition: ease-in-out 0.3s;
+        border: 1px solid #9c65cf;
+      }
+    }
+  }
+  .red2 {
+    padding-top: 100px;
+    display: flex;
+    flex-wrap: wrap-reverse;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    .col2work {
+      .primjerjs {
+        width: 500px;
+        height: 312px;
+        border-radius: 20px;
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 12px 24px;
+      }
+    }
+  }
+  .col1work {
+    margin-right: 25px;
+    .jsopis {
+      margin-top: 10px;
+      max-width: 35ch;
+      color: #97959c;
+      margin-bottom: 10px;
+    }
+    .cta {
+      margin-top: 10px;
+      text-decoration: none;
+      font-weight: 600;
+      padding: 5px 15px;
+      border: none;
+      outline: none;
+      background-color: #9c65cf;
+      color: white;
+      border-radius: 5px;
+    }
+    .cta:hover {
+      cursor: pointer;
+      background-color: white;
+      color: #9c65cf;
+      transition: ease-in-out 0.3s;
+      border: 1px solid #9c65cf;
+    }
+  }
+  .red3 {
+    padding-bottom: 100px;
+    padding-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    .col1work {
+      .primjerjs {
+        width: 500px;
+        height: 312px;
+        border-radius: 20px;
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 12px 24px;
+      }
+      margin-right: 30px;
+    }
+    .col2work {
+      .jsopis {
+        margin-top: 10px;
+        max-width: 35ch;
+        color: #97959c;
+        margin-bottom: 10px;
+      }
+      .cta {
+        margin-top: 10px;
+        text-decoration: none;
+        font-weight: 600;
+        padding: 5px 15px;
+        border: none;
+        outline: none;
+        background-color: #9c65cf;
+        color: white;
+        border-radius: 5px;
+      }
+      .cta:hover {
+        cursor: pointer;
+        background-color: white;
+        color: #9c65cf;
+        transition: ease-in-out 0.3s;
+        border: 1px solid #9c65cf;
+      }
+    }
+  }
+}
+.contact {
+  position: relative;
+  display: grid;
+  width: 100%;
+  height: 100vh;
+  background-color: #f7f4ff;
+  place-items: center;
+  .top {
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+  .bottom {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+  }
+  .kontaknaslov {
+    font-size: 32px;
+    color: black;
+  }
+  .crta {
+    width: 100%;
+    background-color: #9c65cf;
+    height: 20px;
+    margin-top: -25px;
+  }
+  .cta {
+    margin-top: 20px;
+    width: 100px;
+    padding: 6px 10px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    background-color: #9349da;
+    color: white;
+    font-weight: 600;
+  }
+  .cta:hover {
+    cursor: pointer;
+    background-color: white;
+    border: 1px solid #9c65cf;
+    color: #9c65cf;
+    transition: 0.3s all;
+  }
+  .karticakontakt {
+    z-index: 10;
+    position: relative;
+    margin-top: -100px;
+    display: grid;
+    place-items: center;
+    width: 800px;
+    height: 600px;
+    background-color: rgb(255, 255, 255);
+
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 7px 29px;
+    .blob {
+      position: absolute;
+      top: 0;
+      right: 0;
+    }
+    .inputi {
+      width: 60%;
+      margin: auto;
+      display: flex;
+      flex-direction: column;
+      .input {
+        margin-top: 5px;
+        padding: 8px 0px;
+        border: 1px solid #ccc;
+        border-radius: 10px;
+        outline: none;
+        padding-left: 15px;
+      }
+      .input:focus {
+        border: 1px solid #9c65cf;
+      }
+
+      label {
+        margin-top: 10px;
+        span {
+          color: #9c65cf;
+          font-weight: 600;
+        }
+      }
+      #textarea {
+        margin-top: 5px;
+        border-radius: 20px;
+        border: 1px solid #ccc;
+        outline: none;
+        padding-left: 15px;
+        padding-top: 15px;
+      }
+      #textarea:focus {
+        border: #9c65cf 1px solid;
+      }
+    }
+  }
+}
 @media screen and (max-width: 768px) {
   .kartica {
     width: 350px;
     height: 600px;
     .opis {
       padding: 0px 25px;
+      font-size: 0.875rem;
+    }
+  }
+  .col1work {
+    margin: 0 !important;
+  }
+  .primjerjs {
+    width: 350px !important;
+    height: 220px !important;
+    margin-bottom: 25px;
+  }
+  .karticakontakt {
+    width: 350px !important;
+    .inputi {
+      width: 85% !important;
     }
   }
 }

@@ -14,6 +14,8 @@
 }
 
 .kartica {
+  border-top: 5px #9349da solid;
+  border-bottom: 5px #9349da solid;
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
@@ -45,7 +47,7 @@
   width: 125px;
   height: 125px;
   border-radius: 50%;
-  border: 5px #8a2be2 solid;
+  border: 3px #9c65cf solid;
 }
 
 .kartica .mojeime {
@@ -389,17 +391,336 @@
   visibility: hidden !important;
 }
 
-#myProgress {
-  width: 80%;
-  background-color: grey;
-  border-radius: 999px;
+.mywork {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #f7f4ff;
 }
 
-#myBar {
+.mywork .wrapper {
+  position: relative;
+  width: 70%;
+  margin: auto;
+}
+
+.mywork .wrapper .text {
+  margin-top: 80px;
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translate(-50%);
+          transform: translate(-50%);
+}
+
+.mywork .wrapper .text .portfolio {
+  font-size: 32px;
+}
+
+.mywork .wrapper .text .crta {
+  height: 16px;
   width: 100%;
-  height: 15px;
-  background-color: #8a2be2;
-  border-radius: 999px;
+  background-color: #9c65cf;
+  margin-top: -20px;
+}
+
+.mywork .red {
+  padding-top: 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.mywork .red .col1work {
+  margin-right: 30px;
+}
+
+.mywork .red .col1work .primjerjs {
+  width: 500px;
+  height: 312px;
+  border-radius: 20px;
+  -webkit-box-shadow: rgba(149, 157, 165, 0.2) 0px 12px 24px;
+          box-shadow: rgba(149, 157, 165, 0.2) 0px 12px 24px;
+}
+
+.mywork .red .col2work .jsopis {
+  margin-top: 10px;
+  max-width: 35ch;
+  color: #97959c;
+  margin-bottom: 10px;
+}
+
+.mywork .red .col2work .cta {
+  margin-top: 10px;
+  text-decoration: none;
+  font-weight: 600;
+  padding: 5px 15px;
+  border: none;
+  outline: none;
+  background-color: #9c65cf;
+  color: white;
+  border-radius: 5px;
+}
+
+.mywork .red .col2work .cta:hover {
+  cursor: pointer;
+  background-color: white;
+  color: #9c65cf;
+  -webkit-transition: ease-in-out 0.3s;
+  transition: ease-in-out 0.3s;
+  border: 1px solid #9c65cf;
+}
+
+.mywork .red2 {
+  padding-top: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap-reverse;
+      flex-wrap: wrap-reverse;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.mywork .red2 .col2work .primjerjs {
+  width: 500px;
+  height: 312px;
+  border-radius: 20px;
+  -webkit-box-shadow: rgba(149, 157, 165, 0.2) 0px 12px 24px;
+          box-shadow: rgba(149, 157, 165, 0.2) 0px 12px 24px;
+}
+
+.mywork .col1work {
+  margin-right: 25px;
+}
+
+.mywork .col1work .jsopis {
+  margin-top: 10px;
+  max-width: 35ch;
+  color: #97959c;
+  margin-bottom: 10px;
+}
+
+.mywork .col1work .cta {
+  margin-top: 10px;
+  text-decoration: none;
+  font-weight: 600;
+  padding: 5px 15px;
+  border: none;
+  outline: none;
+  background-color: #9c65cf;
+  color: white;
+  border-radius: 5px;
+}
+
+.mywork .col1work .cta:hover {
+  cursor: pointer;
+  background-color: white;
+  color: #9c65cf;
+  -webkit-transition: ease-in-out 0.3s;
+  transition: ease-in-out 0.3s;
+  border: 1px solid #9c65cf;
+}
+
+.mywork .red3 {
+  padding-bottom: 100px;
+  padding-top: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.mywork .red3 .col1work {
+  margin-right: 30px;
+}
+
+.mywork .red3 .col1work .primjerjs {
+  width: 500px;
+  height: 312px;
+  border-radius: 20px;
+  -webkit-box-shadow: rgba(149, 157, 165, 0.2) 0px 12px 24px;
+          box-shadow: rgba(149, 157, 165, 0.2) 0px 12px 24px;
+}
+
+.mywork .red3 .col2work .jsopis {
+  margin-top: 10px;
+  max-width: 35ch;
+  color: #97959c;
+  margin-bottom: 10px;
+}
+
+.mywork .red3 .col2work .cta {
+  margin-top: 10px;
+  text-decoration: none;
+  font-weight: 600;
+  padding: 5px 15px;
+  border: none;
+  outline: none;
+  background-color: #9c65cf;
+  color: white;
+  border-radius: 5px;
+}
+
+.mywork .red3 .col2work .cta:hover {
+  cursor: pointer;
+  background-color: white;
+  color: #9c65cf;
+  -webkit-transition: ease-in-out 0.3s;
+  transition: ease-in-out 0.3s;
+  border: 1px solid #9c65cf;
+}
+
+.contact {
+  position: relative;
+  display: -ms-grid;
+  display: grid;
+  width: 100%;
+  height: 100vh;
+  background-color: #f7f4ff;
+  place-items: center;
+}
+
+.contact .top {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.contact .bottom {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.contact .kontaknaslov {
+  font-size: 32px;
+  color: black;
+}
+
+.contact .crta {
+  width: 100%;
+  background-color: #9c65cf;
+  height: 20px;
+  margin-top: -25px;
+}
+
+.contact .cta {
+  margin-top: 20px;
+  width: 100px;
+  padding: 6px 10px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  background-color: #9349da;
+  color: white;
+  font-weight: 600;
+}
+
+.contact .cta:hover {
+  cursor: pointer;
+  background-color: white;
+  border: 1px solid #9c65cf;
+  color: #9c65cf;
+  -webkit-transition: 0.3s all;
+  transition: 0.3s all;
+}
+
+.contact .karticakontakt {
+  z-index: 10;
+  position: relative;
+  margin-top: -100px;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  width: 800px;
+  height: 600px;
+  background-color: white;
+  border-radius: 20px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.1) 0px 7px 29px;
+          box-shadow: rgba(0, 0, 0, 0.1) 0px 7px 29px;
+}
+
+.contact .karticakontakt .blob {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.contact .karticakontakt .inputi {
+  width: 60%;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.contact .karticakontakt .inputi .input {
+  margin-top: 5px;
+  padding: 8px 0px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  outline: none;
+  padding-left: 15px;
+}
+
+.contact .karticakontakt .inputi .input:focus {
+  border: 1px solid #9c65cf;
+}
+
+.contact .karticakontakt .inputi label {
+  margin-top: 10px;
+}
+
+.contact .karticakontakt .inputi label span {
+  color: #9c65cf;
+  font-weight: 600;
+}
+
+.contact .karticakontakt .inputi #textarea {
+  margin-top: 5px;
+  border-radius: 20px;
+  border: 1px solid #ccc;
+  outline: none;
+  padding-left: 15px;
+  padding-top: 15px;
+}
+
+.contact .karticakontakt .inputi #textarea:focus {
+  border: #9c65cf 1px solid;
 }
 
 @media screen and (max-width: 768px) {
@@ -409,6 +730,21 @@
   }
   .kartica .opis {
     padding: 0px 25px;
+    font-size: 0.875rem;
+  }
+  .col1work {
+    margin: 0 !important;
+  }
+  .primjerjs {
+    width: 350px !important;
+    height: 220px !important;
+    margin-bottom: 25px;
+  }
+  .karticakontakt {
+    width: 350px !important;
+  }
+  .karticakontakt .inputi {
+    width: 85% !important;
   }
 }
 /*# sourceMappingURL=style.css.map */
