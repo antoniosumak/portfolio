@@ -11,7 +11,58 @@
   height: 100vh;
   background-color: #262626;
 }
-
+//NAV
+.nav {
+  padding-top: 25px;
+  position: absolute;
+  width: 100%;
+  margin: auto;
+  height: 8vh;
+  .header {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    margin: auto;
+    justify-content: flex-end;
+    align-items: center;
+    ul {
+      list-style: none;
+      display: flex;
+      li {
+        padding: 10px 15px;
+        a {
+          text-decoration: none;
+          color: white;
+          font-size: 1rem;
+        }
+        a:hover {
+          border-bottom: 1px solid #8a2be2;
+          transition: 0.3s all;
+        }
+      }
+    }
+    .hamburger {
+      display: none;
+      height: 25px;
+      width: 45px;
+      .line1,
+      .line2,
+      .line3 {
+        width: 100%;
+        height: 4px;
+        margin-bottom: 10px;
+        background-color: white;
+        border-radius: 999px;
+      }
+      .line1 {
+        width: 90% !important;
+      }
+      .line2 {
+        width: 70% !important;
+      }
+    }
+  }
+}
 .kartica {
   border-top: 5px #9349da solid;
   border-bottom: 5px #9349da solid;
@@ -644,5 +695,11 @@ footer {
     .tekstafter {
       font-size: 0.6rem;
     }
+  }
+  ul {
+    display: none !important;
+  }
+  .hamburger {
+    display: block !important;
   }
 }
